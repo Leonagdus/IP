@@ -1,0 +1,120 @@
+
+
+.table-view{
+    -fx-effect: null;
+    -fx-border-width: 0;
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: null;
+    -fx-table-cell-border-color: transparent;
+    -fx-box-border: transparent;
+    -fx-background-radius: 10;
+}
+
+.table-cell {
+        -fx-padding: 0.5em 0.5em 0.1em 0.3em;
+
+        -fx-font: 18px "Calibri";
+
+
+
+        -fx-border-insets: 0;
+        -fx-border-width: 0;
+        -fx-border-color: null;
+        -fx-text-fill: #044c4d;
+    }
+.table-view .table-row-cell {
+    -fx-background-color: #f4f4f4;
+
+
+
+}
+
+   .table-view .table-row-cell:odd:filled {
+       -fx-background-color: white;
+
+
+
+   }
+   .table-cell:empty {
+       -fx-alignment: CENTER;
+       -fx-text-fill: #f4f4f4;
+   }
+   .table-cell{
+       -fx-alignment: CENTER;
+   }
+   .table-view .column-header .label {
+       -fx-text-fill: #52677A;
+
+       -fx-alignment: CENTER;
+   }
+
+
+
+
+
+   .table-row:empty {
+       -fx-background-color: null;
+   }
+
+
+
+
+   .table-view:row-selection .table-row-cell:filled:hover {
+       -fx-background-color: rgba(28, 236, 181, 0.25);
+   }
+
+
+
+   .table-view:row-selection .table-row-cell:filled:selected {
+       -fx-background-color: rgba(28, 203, 156, 0.45);
+   }
+
+    .table-view:row-selection .table-row-cell:hover {
+        -fx-background-color: rgba(218, 228, 255, 0.9);
+
+    }
+    .table-view:row-selection .table-row-cell:empty:hover {
+        -fx-background-color: f4f4f4;
+    }
+
+
+
+   .table-view .column-header .label{
+       -fx-text-fill: #ffffff;
+
+       -fx-font: 18px "Calibri";
+       -fx-font-scale: 18;
+       -fx-alignment: CENTER;
+       -fx-font-weight: bold;
+   }
+
+
+
+
+    .table-view .column-header, .table-view .filler {
+       -fx-background-color: #006365;
+       -fx-size: 40;
+       -fx-border-color: #837fee;
+       -fx-border-width: 0;
+       -fx-border-insets: 0;
+        -fx-background-radius: 0;
+
+
+
+
+    }
+
+
+
+   .table-view .column-header-background {
+       -fx-background-color: transparent;
+   }
+
+
+
+
+
+
+
+
+

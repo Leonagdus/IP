@@ -1,0 +1,185 @@
+.btnExit:hover{
+
+    /*Gradiaente de verde a transparente*/
+    -fx-background-color: linear-gradient(to right, rgba(253, 253, 253, 0.08), rgba(255, 255, 255, 0));
+    -fx-cursor: hand;
+
+
+    -fx-effect: dropshadow(gaussian, rgb(255, 255, 255), 10, 0, 0, 0);
+
+    -fx-cursor: hand;
+}
+.btnExit{
+
+
+    -fx-background-color: null;
+}
+
+.enabledStateLabel{
+    -fx-background-radius: 5;
+    -fx-background-color: null;
+    -fx-text-fill: rgb(3, 88, 91);
+
+
+
+
+}
+
+
+
+.actualEnabledStateLabel{
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(to top, rgb(56, 129, 130), rgb(63, 171, 146));
+    -fx-effect: dropshadow(gaussian, rgb(41, 147, 71), 10, 0, 0, 0);
+    -fx-text-fill: white;
+    -fx-border-width: 1 0 0 0;
+
+
+}
+
+
+.generalContainer{
+    -fx-background-color: rgb(0, 99, 101);
+
+    -fx-border-radius: 10;
+
+    -fx-border-color: white;
+    -fx-border-width: 0;
+
+    -fx-background-image: url("../image/fondo5.png") center;
+
+    -fx-background-size: 130;
+    -fx-background-radius: 10 ;
+}
+
+.bellowContainer{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgb(255, 255, 255), 10, 0, 0, 0);
+
+
+}
+
+.stateContainer{
+    -fx-background-radius: 10 10 0 0;
+    -fx-background-color: rgb(255, 255, 255);
+
+;
+}
+.field{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(46, 223, 227);
+    -fx-border-width: 0;
+    -fx-border-radius: 3;
+    /*cambiar color letras    */
+    -fx-text-fill: rgb(3, 104, 107);
+    -fx-effect: dropshadow(gaussian, rgb(41, 98, 147), 10, 0, 0, 0);
+}
+
+.datapicker .date-picker-display-node {
+    -fx-font-size: 18;
+
+
+}
+.datapicker .arrow-button{
+    -fx-background-color: #00888b;
+    -fx-background-radius: 0 5 5 0;
+    -fx-border-color: rgb(46, 223, 227);
+    -fx-border-width: 0;
+
+    /*cambiar color letras    */
+    -fx-text-fill: rgb(3, 104, 107);
+    -fx-effect: dropshadow(gaussian, rgb(41, 98, 147), 5, 0, 0, 0);
+
+    -fx-cursor: hand;
+}
+.datapicker .arrow-button .arrow{
+-fx-background-color: white;
+    -fx-background-size: 100;
+    -fx-scale-x: 1.2
+;
+    -fx-scale-y: 1.2;
+
+}
+
+
+
+.enterBtn{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(46, 223, 227);
+    -fx-border-width: 0;
+    -fx-border-radius: 1;
+    /*cambiar color letras    */
+    -fx-text-fill: rgb(3, 104, 107);
+    -fx-effect: dropshadow(gaussian, rgb(41, 98, 147), 10, 0, 0, 0);
+    -fx-cursor: hand;
+
+}
+/*
+.enterBtn:hover{
+
+    -fx-background-color: #00888b;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(46, 223, 227);
+    -fx-border-width: 0;
+    -fx-border-radius: 1;
+
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-effect: dropshadow(gaussian, rgb(41, 98, 147), 10, 0, 0, 0);
+    -fx-cursor: hand;
+
+}
+*/
+.enterBtn:hover {
+
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(46, 223, 227);
+    -fx-border-width: 0;
+    -fx-border-radius: 1;
+    /*cambiar color letras    */
+    -fx-text-fill: rgb(3, 104, 107);
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgb(41, 98, 147), 20, 0, 0, 0);
+
+}
+.enterBtn:focused{
+    -fx-background-color: #eeeeee;
+
+}
+
+.pfondo{
+    -fx-background-image: url("../image/fondo14.png") center;
+    -fx-background-size: 100;
+}
+#btnaddimage{
+    -fx-text-fill: rgb(62, 152, 119);
+}
+
+#btnaddimage:hover{
+
+    /*cambiar color letras    */
+
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.68), 20, 0, 0, 0);
+}
+.field:disabled{
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(255, 255, 255);
+
+    -fx-border-radius: 1;
+    /*cambiar color letras    */
+
+    -fx-effect: dropshadow(gaussian, rgb(26, 179, 123), 10, 0, 0, 0);
+    -fx-opacity: 0.75;
+
+
+}
+
+
+
+
